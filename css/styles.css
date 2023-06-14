@@ -1,0 +1,125 @@
+@charset "utf-8";
+
+.container-fluid {
+  width: 82.5%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  align-content: center;	
+}
+
+.container-head {
+  width: 82.5%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  align-content: center;
+  background-color: #ffd1dc;	
+}
+
+.pastel-pink {
+	background-color: #ffd1dc;
+}
+
+.searchGrid {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+	justify-content: center;
+    height: 200px;
+    max-height: 400px
+}
+
+.searchGrid-index {
+    display: inline-block;
+    width: 30%;
+    margin-right: 48px;
+	margin-left: 55px;
+	justify-content: center;
+    height: 200px;
+    max-height: 400px
+}
+
+.checkoutGrid {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 200px;
+grid-column-gap: 20px;
+grid-row-gap: 20px;
+}
+
+.overlay {
+  	position: fixed;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	background: rgba(0, 0, 0, 0.7);
+  	transition: none;
+}
+
+.popup {
+  	margin: 75px auto;
+  	padding: 20px;
+  	background: white;
+  	border-radius: 5px;
+  	width: 30%;
+  	position: relative;
+  	transition: none;
+}
+
+.popup .close {
+  	position: absolute;
+  	top: 5px;
+  	right: 20px;
+  	transition: all 200ms;
+  	font-size: 30px;
+  	font-weight: bold;
+  	text-decoration: none;
+  	color: #333;
+}
+
+.popup .close:hover {
+  	color: #ffd335;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+#masterContainer {
+	min-height: 100%;
+}
+
+#main {
+	overflow: visible;
+	padding-bottom: 100px;
+}
+
+#footer {
+	background-color: #ffd1dc;
+	position: relative;
+	height: 100px;
+	margin-top: 
+	clear: both;	
+}
+
+#Qtytext {
+	width: 40px;
+}
+
+#Search {
+	height: auto;
+	width: 300px;
+}
+
+#SearchTxt {
+    font-size: 20px;
+}
